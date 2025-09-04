@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:beige;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+.sign-up{
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+}
+
+form {
+  max-width: 300px;
+  background: white;
+  padding: 45px;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+}
+
+input {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  background-color: rgb(166, 25, 49);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:pink;
+}
